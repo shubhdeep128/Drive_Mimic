@@ -6,15 +6,6 @@ from .serializers import FileSerializer
 from rest_framework import viewsets, generics
 
 
-class FileList(generics.ListAPIView):
-    queryset=File.objects.all()
-    serializer_class=FileSerializer
-
-
-
-class FileDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset=File.objects.all()
-    serializer_class=FileSerializer
 
 
 

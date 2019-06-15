@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'api',
     'rest_framework',
     'crud',
     'django.contrib.admin',
@@ -127,6 +128,6 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
 
 
-#REST_FRAMEWORK={
-#    'DEFAULT_PERMISSION_CLASSES':('rest_framework.permissions.IsAuthenticated',)
-#}
+REST_FRAMEWORK={
+    'DEFAULT_PERMISSION_CLASSES':('rest_framework.permissions.IsAuthenticated',)
+}
