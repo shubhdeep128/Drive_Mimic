@@ -1,5 +1,5 @@
 # Drive_Mimic
-A django web-app that mimics Google Drive
+A django REST api that mimics Google Drive
 
 # Requirements
 <strong>Python3</strong><br><br><br>
