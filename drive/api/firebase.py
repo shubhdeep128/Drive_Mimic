@@ -13,7 +13,7 @@ def store(name,path):
 	"authDomain": "drivemimic.firebaseapp.com",
 	"databaseURL": "https://drivemimic.firebaseio.com",
 	"storageBucket": "drivemimic.appspot.com",
-	
+	"serviceAccount": "key.json"
 	}
 
 	firebase = pyrebase.initialize_app(config)
