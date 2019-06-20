@@ -7,7 +7,10 @@ A django REST api that mimics Google Drive
 ```sh
 pip3 install Django
 ```
-<strong>Pyrebase</strong><br>
+<strong>Django-Rest Framework</strong>
+```sh
+pip3 install djangorestframework
+```strong>Pyrebase</strong><br>
 ```sh
 pip3 install pyrebase
 ```
